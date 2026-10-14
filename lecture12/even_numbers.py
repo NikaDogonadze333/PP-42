@@ -5,8 +5,8 @@ def even_numbers():
         num += 2
 
 count = 0
-for x in even_numbers():
-    print(x)
+for item in even_numbers():
+    print(item)
     count += 1
     if count == 10:
         break
